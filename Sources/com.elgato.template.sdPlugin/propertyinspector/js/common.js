@@ -894,7 +894,7 @@ const StreamDeck = (function () {
                     uuid: inUUID
                 };
 
-                // console.log('***************', inMessageType + "  websocket:onopen", inUUID, json);
+                console.log('***************', inMessageType + "  websocket:onopen", inUUID, json);
 
                 websocket.sendJSON(json);
                 $SD.uuid = inUUID;
